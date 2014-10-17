@@ -1,0 +1,75 @@
+﻿빌드 시작: 2014-03-08 오전 2:57:58
+     1>2 노드의 "C:\Users\성일\Documents\Visual Studio 2013\Projects\asd\Win32Project1\Win32Project1\Win32Project1.vcxproj" 프로젝트(Build 대상)입니다.
+     1>InitializeBuildStatus:
+         "Release\Shoot.tlog\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\Shoot.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Shoot.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BackGround.cpp Bullet.cpp Button.cpp Chirno.cpp Chirno_Blt_1.cpp Chirno_PerfectFreeze.cpp D3DManager.cpp Enemy.cpp Entity.cpp GameOver.cpp Image.cpp InGame.cpp MainMenu.cpp MovePattern.cpp Move_1.cpp Move_0.cpp Player.cpp Player_Blt_1.cpp Sence.cpp SenceManager.cpp SoundManager.cpp SpellCard.cpp Spiral.cpp main.cpp Singleton.h Text.cpp TimeCounter.cpp TitleScreen.cpp Unit.cpp Utill.cpp
+         BackGround.cpp
+         Bullet.cpp
+     1>Bullet.cpp(27): warning C4244: '인수' : 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>Bullet.cpp(28): warning C4244: '인수' : 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>Bullet.cpp(66): warning C4244: '인수' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>Bullet.cpp(67): warning C4244: '인수' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         Button.cpp
+         Chirno.cpp
+         Chirno_Blt_1.cpp
+     1>Chirno_Blt_1.cpp(34): warning C4305: '*=' : 'double'에서 'float'(으)로 잘립니다.
+     1>Chirno_Blt_1.cpp(35): warning C4305: '*=' : 'double'에서 'float'(으)로 잘립니다.
+         Chirno_PerfectFreeze.cpp
+     1>Chirno_PerfectFreeze.cpp(23): warning C4305: '인수' : 'double'에서 'FLOAT'(으)로 잘립니다.
+     1>Chirno_PerfectFreeze.cpp(25): warning C4244: '+=' : 'float'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         D3DManager.cpp
+     1>D3DManager.cpp(73): error C2440: '초기화 중' : 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>D3DManager.cpp(93): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)' : 인수 2을(를) 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+         Enemy.cpp
+     1>Enemy.cpp(53): warning C4244: '인수' : 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>Enemy.cpp(54): warning C4244: '인수' : 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         Entity.cpp
+         GameOver.cpp
+     1>GameOver.cpp(23): warning C4244: '=' : 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>GameOver.cpp(24): warning C4244: '=' : 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>GameOver.cpp(27): warning C4244: '=' : 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>GameOver.cpp(28): warning C4244: '=' : 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         Image.cpp
+     1>Image.cpp(36): error C2664: 'HRESULT D3DXCreateTextureFromFileExW(LPDIRECT3DDEVICE9,LPCWSTR,UINT,UINT,UINT,DWORD,D3DFORMAT,D3DPOOL,DWORD,DWORD,D3DCOLOR,D3DXIMAGE_INFO *,PALETTEENTRY *,LPDIRECT3DTEXTURE9 *)' : 인수 2을(를) 'const char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+         InGame.cpp
+         MainMenu.cpp
+         MovePattern.cpp
+         Move_1.cpp
+         Move_0.cpp
+         Player.cpp
+         Player_Blt_1.cpp
+         Sence.cpp
+         SenceManager.cpp
+         컴파일하고 있습니다...
+         SoundManager.cpp
+         SpellCard.cpp
+         Spiral.cpp
+         main.cpp
+     1>main.cpp(76): error C2664: 'BOOL UnregisterClassW(LPCWSTR,HINSTANCE)' : 인수 1을(를) 'LPCSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+         Singleton.h
+         Text.cpp
+     1>Text.cpp(20): error C2664: 'HRESULT D3DXCreateFontW(LPDIRECT3DDEVICE9,INT,UINT,UINT,UINT,BOOL,DWORD,DWORD,DWORD,DWORD,LPCWSTR,LPD3DXFONT *)' : 인수 11을(를) 'const char [10]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>Text.cpp(42): error C2664: 'INT ID3DXFont::DrawTextW(LPD3DXSPRITE,LPCWSTR,INT,LPRECT,DWORD,D3DCOLOR)' : 인수 2을(를) 'const char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+         TimeCounter.cpp
+         TitleScreen.cpp
+     1>TitleScreen.cpp(23): warning C4244: '=' : 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>TitleScreen.cpp(24): warning C4244: '=' : 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>TitleScreen.cpp(44): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+         Unit.cpp
+         Utill.cpp
+     1>Utill.cpp(43): error C2664: 'void OutputDebugStringW(LPCWSTR)' : 인수 1을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>"C:\Users\성일\Documents\Visual Studio 2013\Projects\asd\Win32Project1\Win32Project1\Win32Project1.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:05.85
