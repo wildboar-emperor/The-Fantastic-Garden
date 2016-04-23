@@ -1,13 +1,13 @@
-// stdafx.h : ÀÚÁÖ »ç¿ëÇÏÁö¸¸ ÀÚÁÖ º¯°æµÇÁö´Â ¾Ê´Â
-// Ç¥ÁØ ½Ã½ºÅÛ Æ÷ÇÔ ÆÄÀÏ ¹× ÇÁ·ÎÁ§Æ® °ü·Ã Æ÷ÇÔ ÆÄÀÏÀÌ
-// µé¾î ÀÖ´Â Æ÷ÇÔ ÆÄÀÏÀÔ´Ï´Ù.
+// stdafx.h : ìì£¼ ì‚¬ìš©í•˜ì§€ë§Œ ìì£¼ ë³€ê²½ë˜ì§€ëŠ” ì•ŠëŠ”
+// í‘œì¤€ ì‹œìŠ¤í…œ í¬í•¨ íŒŒì¼ ë° í”„ë¡œì íŠ¸ ê´€ë ¨ í¬í•¨ íŒŒì¼ì´
+// ë“¤ì–´ ìˆëŠ” í¬í•¨ íŒŒì¼ì…ë‹ˆë‹¤.
 //
 
 #pragma once
 
 #include "targetver.h"
-#define WIN32_LEAN_AND_MEAN             // °ÅÀÇ »ç¿ëµÇÁö ¾Ê´Â ³»¿ëÀº Windows Çì´õ¿¡¼­ Á¦¿ÜÇÕ´Ï´Ù.
-// Windows Çì´õ ÆÄÀÏ:
+#define WIN32_LEAN_AND_MEAN             // ê±°ì˜ ì‚¬ìš©ë˜ì§€ ì•ŠëŠ” ë‚´ìš©ì€ Windows í—¤ë”ì—ì„œ ì œì™¸í•©ë‹ˆë‹¤.
+// Windows í—¤ë” íŒŒì¼:
 #include <windows.h>
 
 #include <mmsystem.h>
@@ -15,14 +15,14 @@
 #include <math.h>
 #include <time.h>
 
-// C ·±Å¸ÀÓ Çì´õ ÆÄÀÏÀÔ´Ï´Ù.
+// C ëŸ°íƒ€ì„ í—¤ë” íŒŒì¼ì…ë‹ˆë‹¤.
 #include <stdlib.h>
 #include <malloc.h>
 #include <memory.h>
 #include <tchar.h>
 #include <strsafe.h>
 
-// DirectX È®Àå ¶óÀÌºê·¯¸®
+// DirectX í™•ì¥ ë¼ì´ë¸ŒëŸ¬ë¦¬
 #include <d3d9.h>
 #include <d3dx9.h>
 #pragma comment (lib, "d3d9.lib")
@@ -32,8 +32,8 @@
 #pragma warning( disable : 4996 ) // disable deprecated warning 
 #pragma warning( default : 4996 ) 
 
-static LPCSTR sys_classname = "¼Ò³àÀÇ °ø»óÁ¤¿ø";
-static LPCSTR sys_windowname = "°ø»óÁ¤¿ø ÀÇÁ¸Áõ";
+static LPCSTR sys_classname = "fantastic girl garden";
+static LPCSTR sys_windowname = "Fantastic Garden";
 
 #define APPLICATION_FPS 60
 #define Math_PI 3.141592
