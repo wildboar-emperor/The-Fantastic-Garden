@@ -7,9 +7,11 @@ Very simple to build, but:
 
 Changes from forked original:
 1) Deleted temporary project files (*.sdf + degug/release)
-2) changed soundManager.cpp (playSound)
+2) fmodex.dll (~340 kb) replaced by fmod.dll (1,39 Mb) with changing projects path (fmod_vc.lib)
+3) changed soundManager.cpp (playSound)
+4) translated text on start menu images
 
-in progress:
+requared:
 1) delete link to  unused *.rc file in project
-2) fmodex.dll unused - used fmod.dll (fmod_vc.lib)
-3) i will translate korean text and images to english. 
+2) rename Korean names of files.
+
