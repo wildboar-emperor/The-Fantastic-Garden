@@ -10,9 +10,9 @@ Changes from forked original:
 2) fmodex.dll (~340 kb) replaced by fmod.dll (1,39 Mb) with changing projects path (fmod_vc.lib)
 3) changed soundManager.cpp (playSound)
 4) translated text on start menu images
-5) Added complied *.exe file (Debag version!!!)
+5) Added complied *.exe file (Release version -Md - but not works in winXP)
 
-requared:
+For Building requared:
 1) delete link to  unused *.rc file in project
 2) rename Korean names of files.
 
