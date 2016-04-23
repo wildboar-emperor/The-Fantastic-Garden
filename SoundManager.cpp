@@ -54,7 +54,8 @@ void SoundManager::Play(const char* label, CHANNELTYPE channel)
 	{
 		if (strcmp(itr->Label, label) == 0)
 		{
-			SndSystem->playSound(FMOD_CHANNEL_REUSE, itr->Snd, 0, &Channel[channel]);
+			//SndSystem->playSound(FMOD_CHANNEL_REUSE, itr->Snd, 0, &Channel[channel]); // no works
+			SndSystem->playSound( itr->Snd, 0, 0, &Channel[channel]); 
 			return;
 		}
 	}
